@@ -1,0 +1,201 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0% 0%;
+    padding: 0% 0%;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#title h1{
+    font-family: 'Montserrat-Black',sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
+/* NAVIGATION BAR */
+
+.navbar{
+    padding: 0px 0px 4.5rem 0px;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Montserrat-Light',sans-serif;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+/* TITLE IMAGE */
+.title-img{
+    position: absolute;;
+    /* z-index:-1; */
+    width: 55%;
+    left: 30px;
+    transform: rotate(25deg);
+}
+
+
+/* FEATURES CONTENT */
+
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index:1;
+}
+
+#features .row{
+   padding:7% 15% 7% 15%;
+}
+
+
+.feature-content{
+    padding: 20px 40px;
+    text-align: center;
+}
+
+
+#features .fa{
+ margin: 3% auto 15%;
+}
+
+#features .fa:hover{
+    color:  #ff4c68;
+}
+
+.fa-check-circle{
+    height: 3.5rem;
+    width: 3.5rem;
+    color:#ef8172;
+}
+
+.fa-bullseye
+{
+    color:#ef8172;
+}
+
+.fa-heart{
+    color: #ef8172;
+}
+
+#features p{
+    font-family: ubuntu,sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: grey;
+}
+
+/* TESTIMONIALS */
+
+#testimonials{
+    background-color:#ef8172;
+    text-align: center;
+    color: #fff;
+    line-height: 2;
+}
+
+.carousel-item{
+    padding:7% 15% 7% 15%;
+}
+
+#testimonials h2{
+    color: #fff;
+
+}
+
+#testimonials img{
+    width: 20%;
+    margin: 40px auto 10px;
+    border-radius: 100%;
+}
+
+
+/* press */
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.press-img{
+    width: 15%;
+    padding: 20px 40px 30px;
+}
+
+
+/* ............CARDS................... */
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.card-container{
+    margin: 30px 0px;
+}
+
+/* ....................CALL TO ACTION */
+
+    #cta{
+        padding:7% 17% 7% 17%;
+        background-color: #ff4c68;
+        color: #fff;
+        text-align: center;
+    }
+
+    #cta .btn{
+        margin: 30px 20px 30px;
+    }
+
+/* ...............FOOTER ..............................*/
+
+#footer{
+    color: gray;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding:7% 15% 3% 15%;
+}
+
+#footer a{
+    color: #000;
+}
+
+#footer a:hover{
+    color: gray;
+}
+#footer .fa{
+    padding: 10px 20px;
+}
+
+/* ....................MOBILE VIEW ....................*/
+
+@media (max-width:1028px)
+{
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}

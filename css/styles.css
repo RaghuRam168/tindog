@@ -150,6 +150,12 @@
     text-align: center;
 }
 
+#pricing p{
+    font-family: sans-serif;
+    color: #8f8f8f;
+}
+
+
 .card-container{
     margin: 30px 0px;
 }
@@ -170,8 +176,8 @@
 /* ...............FOOTER ..............................*/
 
 #footer{
-    color: gray;
-    font-family: 'Ubuntu', sans-serif;
+    color: #d3cfcf;
+    font-family: sans-serif;
     text-align: center;
     padding:7% 15% 3% 15%;
 }
